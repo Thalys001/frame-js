@@ -1,4 +1,4 @@
-class negotiation {
+class Negotiation {
   constructor(data, quantity, value) {
     this._data = new Date(data.getTime())
     this._quantity = quantity;
@@ -25,9 +25,9 @@ class negotiation {
 
 let h = new Date()
 
-let n1 = new negotiation(h, 5, 700);
-console.log(n1.data);
+let n1 = new Negotiation(h, 5, 700);
+// console.log(n1.data);
 
 h.setDate(11);
 
-console.log(n1.data);
+// console.log(n1.data);
