@@ -23,11 +23,11 @@ class Negotiation {
   }
 }
 
-let h = new Date()
+// let h = new Date()
 
-let n1 = new Negotiation(h, 5, 700);
-// console.log(n1.data);
+// let n1 = new Negotiation(h, 5, 700);
+// // console.log(n1.data);
 
-h.setDate(11);
+// h.setDate(11);
 
 // console.log(n1.data);
